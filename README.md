@@ -1,8 +1,8 @@
 # NPA2023 Final Example
 
-- Name/Surname:
-- Student ID:
-- GitHub repository URL:
+- Name/Surname: Wanichabhorn Chaisupasin
+- Student ID: 64070226
+- GitHub repository URL: https://github.com/Iwachax/NPA2023-Final-Example-Wanichabhorn
 
 ## Instruction
 
