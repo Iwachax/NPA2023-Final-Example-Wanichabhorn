@@ -151,9 +151,17 @@ while True:
                             "text": responseMessage
                         }
         # Post the call to the Webex Teams message API.
+        #jsoon.dumps -> ทำให้เป็นเจสัน
         r = requests.post( "https://webexapis.com/v1/messages", 
                               data = json.dumps(PostData), 
                               headers = HTTPHeaders
                          )
         if not r.status_code == 200:
             raise Exception("Incorrect reply from Webex Teams API. Status code: {}. Text: {}".format(r.status_code, r.text))
+
+#install req -> 
+#git  config --global --list -> config --global user.email "somo.osossomo@gmail.com"  แล้วก็ -> config --global user.name "Iwachax"
+#git add .
+#git commit -m "ใส่เมสเสจ"
+#git push
+#git pull
